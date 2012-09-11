@@ -1,0 +1,91 @@
+ body, div, span, applet, object, iframe,  
+ p, pre, h1, h2, h3, h4, h5, h6,
+ a, abbr, acronym, address, big, cite, code,  
+ del, dfn, em, font, img, ins, kbd, q, s, samp,  
+ small, strike, strong, sub, sup, tt, var,  
+ b, u, i, center,  
+ dl, dt, dd, ul, li,  
+ fieldset, form, label, legend,  
+ table, caption, tbody, tfoot, thead, tr, th, td
+ {  
+     margin: 0px auto;  
+     padding: 0px;  
+     border: 0px;  
+     outline: 0px;  
+ }  
+
+h1, h2, h3, h4, h5, h6
+{
+    color: #662a2a;
+    margin: 15px 0px 15px 0px;
+}
+
+/* h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
+    margin-bottom: 10px;
+}
+*/
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 22px
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p
+{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+ul
+{
+    color: #666;
+    list-style-type: none;
+}
+
+ol
+{
+    color: #666
+}
+
+strong, b
+{
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+a:link, a:visited, a:active
+{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover
+{
+    color: #fff;
+    background: #bccace;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #e3e3e3;
+    -webkit-box-shadow: 5px 5px 5px #e3e3e3;
+    -0-box-shadow: 5px 5px 5px #e3e3e3;
+    -moz-box-shadow: 5px 5px 5px #e3e3e3;
+}

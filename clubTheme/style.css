@@ -1,0 +1,224 @@
+/*   
+Theme Name: Club Theme
+Theme URI: http://www.rashadrussell.com/
+Description: A simple theme made for clubs and organizations. The purpose of this Wordpress theme was meant to look more like a CMS rather than a blog.
+Author: Rashad Russell
+Author URI: http://www.rashadrussell.com/
+*/
+
+body
+{
+   background: url('http://www.acm.uiuc.edu/webmonkeys/2012/wp-content/uploads/2012/08/bg2.png');
+   background-repeat: repeat-x;
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Source Sans Pro', sans-serif;
+   color: #656565;
+}
+
+.logo img
+{
+    width: 60px;
+    height: 70px;
+    float: left;
+}
+
+#header_wrapper {
+   width: 100%;
+   height: 400px;
+   display: block;
+   padding-top: 10px;
+}
+
+#header_wrapper .menu
+{
+   width: 750px;
+   color: #fff;
+}
+
+#header_wrapper .menu ul
+{
+   font-size: 14px;
+   height: 50px;
+}
+
+#header_wrapper .menu li
+{
+   float: left;
+   text-align: center;
+   padding: 0px 10px;
+   border-right: solid 1px #e3e3e3;
+}
+
+#header_wrapper .menu li:nth-last-child(1)
+{
+   border-right: none;
+}
+
+#header_wrapper .menu a
+{
+   width: 70px;
+   height: 20px;
+   display: block;
+   padding-bottom: 50px;
+}
+
+#header_container {
+   width: 900px;
+   margin: 0px auto;
+}
+
+#bigImageArea {
+   width: 900px;
+   margin: 0px auto;
+   margin-top: 50px;
+   text-align: center;
+   overflow: hidden;
+}
+
+#bigImageArea img.bigImage {
+   width: 480px;
+   height: 267px;
+}
+
+#content_wrapper {
+   width: 900px;
+   margin: 0px auto;
+}
+
+#content_container {
+   width: 900px;
+}
+
+#content_container p {
+   word-spacing: 3px;
+}
+
+#content_container ul, li, p {
+    font-size: 14px;
+}
+
+#content_container a {
+    color: #662a2a;
+}
+
+#content_container a:hover {
+    color: #fff;
+}
+
+#body_content {
+   width: 815px;
+   margin: 0px auto;
+   margin-top: 10px;
+   overflow: hidden;
+}
+
+#body_content #article1, #article2, #article3 {
+   width: 250px;
+   height: 120px;
+   float: left;
+   padding: 0px 10px 10px 10px;
+   border-left: solid 1px #d3d1c7;
+   border-right: solid 1px #d3d1c7;
+   border-bottom: solid 1px #d3d1c7;
+}
+
+#body_content #article2, #article3 {
+   border-left: none;
+}
+
+#body_content span.column_content {
+   display:block;
+   float: left;
+   margin-left: 10px;
+   line-height: 18px;
+}
+
+#body_content span.column_content h1, span.column_content h2, span.column_content h3, span.column_content h4, span.column_content h5, span.column_content h6 {
+   margin-top: 0px;
+}
+
+#body_content span.column_content p {
+   margin-top: 0px;
+   float: left;
+}
+
+#article1 img {
+   width: 70px;
+   height: 82px;
+   display: block;
+   float: left;
+}
+
+#members_list {
+    overflow: hidden;
+}
+
+#members_list li {
+    width: 225px;
+    float: left;
+}
+
+#resource_columns {
+    overflow: hidden;
+    width: 680px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+#resource_columns ul {
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding: 10px;
+    border-right: solid 1px #d3d1c7;
+    border-bottom: solid 1px #d3d1c7;
+}
+
+#resource_columns li:first-child {
+    margin-bottom: 5px;
+}
+
+#resource_columns h1, #resource_columns h2, #resource_columns h3, #resource_columns h4, #resource_columns h5, #resource_columns h6 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#footer_wrapper
+{ 
+   margin: 30px 0px 20px 0px;
+   clear: both;
+}
+
+#footer_container
+{
+   width: 886px;
+   background-color: #f5f5f5;
+   border: solid 1px #d3d1c7;
+   padding: 5px 8px;
+   font-size: 14px;
+   overflow: hidden;
+}
+
+#footer_container p
+{
+   margin-top: 3px;
+   font-size: 11px;
+}
+
+#footer_container a
+{
+   color: #333;
+}
+
+#footer_container a:hover
+{
+   color: #333;
+}
+
+#footer_container img.social_media_icon {
+    width: 28px;
+    height: 22px;
+    float: right;
+}
+
